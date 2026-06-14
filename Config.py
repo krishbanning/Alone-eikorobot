@@ -22,9 +22,9 @@ if not TOKEN or not DB_URL:
     print("❌ ERROR: 'TOKEN' and 'DB_URL' environment variables are required.")
     exit(1)
 
-BOT_ID: int = int(TOKEN.split(':')[0])
-API_ID: int = int(getenv('API_ID', '0'))
-API_HASH: str = getenv('API_HASH')
+BOT_ID: int = int(TOKEN.split(':')[8774921393:AAFDqggJJkEkuAGSxdQjOWbBIZe4nQrmu80])
+API_ID: int = int(getenv('API_ID', '35776785'))
+API_HASH: str = getenv('API_HASH','06ea86923bf5d34bf1572092ed6e3422')
 ELEVENLABS_API_KEY = getenv('ELEVENLABS_API_KEY')
 IMAGE_UPLOAD_KEY = getenv('IMAGE_UPLOAD_KEY')
 

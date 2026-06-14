@@ -14,7 +14,7 @@ multi_clients, work_loads = {}, {}
 
 # necessary
 PREFIX = getenv('PREFIX', 'True').lower() == 'true'
-TOKEN: str = getenv('TOKEN')
+TOKEN: str = getenv('BQIh6REArTSBgv6Q1RTC1qw3sC5K9EMoEPJKibcxnmQw6BHl-krnarl2blmzXjNVL5pmMBoL9nsYC8hUtbr0Nuf5lBVqABOLGdqmbKHJIlHmMvalm5vUZkBRqXQzPfRohTHiSi9BrdtYMNXyQS9aAnzKGI4cfIORQdlNeZNmsKq8qjDudH04DFiJTzgF44uLQFve8ddfFT9eOmQjpCNkM0hZRGk8aI7z_MdBaeWcs2_YMpsoxFnEhs3gggQzPf2s8a-dNmHXHgYiq_DoZ1xtIpI8kZET_aLmFgh0OvhBFvP1j50n0TLdsovPR6lZ-eOjW2l_k4ThvLQdP-FiqGQ616xAdEjG4QAAAAHHwm12AA')
 DB_URL: str = getenv('DB_URL')
 DB_URL2: str = getenv('DB_URL2')
 

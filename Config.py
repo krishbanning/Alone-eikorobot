@@ -40,7 +40,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "0"))
 
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Axychats")
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/qpllpk.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/35tfwv.jpg")
 
 
 SUPPORT_CHAT = getenv('SUPPORT_CHAT', 'Axychats')
@@ -98,17 +98,17 @@ BTN_ROWS = int(getenv('BTN_ROWS', '6'))
 
 
 # some media source
-PM_START_IMG = getenv('PM_START_IMG', "https://files.catbox.moe/iz6z4g.jpg")
+PM_START_IMG = getenv('PM_START_IMG', "https://files.catbox.moe/sm18vd.jpg")
 
-HELP_CMD_IMG = getenv('HELP_CMD_IMG', "https://files.catbox.moe/qpllpk.jpg")
-
-
-HELP_MODULE_IMG = getenv('HELP_MODULE_IMG', "https://files.catbox.moe/iz6z4g.jpg")
-
-START_IMG = getenv('START_IMG', "https://files.catbox.moe/qpllpk.jpg")
+HELP_CMD_IMG = getenv('HELP_CMD_IMG', "https://files.catbox.moe/35tfwv.jpg")
 
 
-FORCE_JOIN_IMG = getenv('FORCE_JOIN_IMG', "https://files.catbox.moe/u2d0p7.jpg")
+HELP_MODULE_IMG = getenv('HELP_MODULE_IMG', "https://files.catbox.moe/sm18vd.jpg")
+
+START_IMG = getenv('START_IMG', "https://files.catbox.moe/35tfwv.jpg")
+
+
+FORCE_JOIN_IMG = getenv('FORCE_JOIN_IMG', "https://files.catbox.moe/35tfwv.jpg")
 
 AF_START_STICKERS = [
   "CAACAgUAAxkBAAEBrV9nWukpft8gmtrZVMkbO4GKlZy0HQACWxUAAnHv2FZkjr7WjG3OjzYE",

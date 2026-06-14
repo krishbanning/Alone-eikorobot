@@ -38,13 +38,13 @@ ALONE_OWNER_ID = int(getenv("7832349983", "0"))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "0"))
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/cherryxUpdate")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Axychats")
 
 START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/qpllpk.jpg")
 
 
-SUPPORT_CHAT = getenv('SUPPORT_CHAT', 'cherryxUpdate')
-UPDATE_CHANNEL = getenv('UPDATE_CHANNEL', 'cherryxnetwork')
+SUPPORT_CHAT = getenv('SUPPORT_CHAT', 'Axychats')
+UPDATE_CHANNEL = getenv('UPDATE_CHANNEL', 'Axynetwork')
 
 _logs_channel = getenv('LOGS_CHANNEL') or getenv('LOG_GROUP_ID') or getenv('LOGGER_ID')
 if _logs_channel:
@@ -56,8 +56,8 @@ else:
     LOGS_CHANNEL = None
 
 LOGGER_ID = int(getenv('LOGGER_ID', '-1003601301106'))
-BOT_USERNAME = getenv('BOT_USERNAME', '@ferrarimusicbot')
-BOT_NAME = getenv('BOT_NAME', 'ferrari')
+BOT_USERNAME = getenv('BOT_USERNAME', '@bmwsongbot')
+BOT_NAME = getenv('BOT_NAME', 'bmw')
 IS_WEB_SUP = getenv('IS_WEB_SUP', 'True').lower() == 'true'
 
 SUDO_USERS = [int(x) for x in getenv("SUDO_USERS", "7832349983").split() if x.isdigit()]
@@ -187,7 +187,7 @@ AF_USERS.extend(DEV_LIST) # load devs
 
 STREAM_MOD = getenv('STREAM_MOD', 'False').lower() == 'true'
 AF_FILE_DEL_TIME = int(getenv('AF_FILE_DEL_TIME', str(30*60)))
-AF_SUB_CHAT = getenv('AF_SUB_CHAT', "@cherryxUpdate")
+AF_SUB_CHAT = getenv('AF_SUB_CHAT', "@Axychats")
 FILE_DB_CHANNEL = int(getenv('FILE_DB_CHANNEL', '0')) # file store channel
 AF_SUB_TEXT = getenv('AF_SUB_TEXT', """
 <blockquote><b>

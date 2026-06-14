@@ -4,7 +4,7 @@ import os
 from aiohttp import web
 from aiohttp.http_exceptions import BadStatusLine
 import asyncio
-import config
+from config import 
 import aiohttp
 import traceback
 import math
